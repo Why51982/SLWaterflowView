@@ -1,2 +1,2 @@
 # SLWaterflowView
-瀑布流效果的demo
+仿UITableView的底层原理实现，利用缓存池对cell进行了重利用，来达到节省内存的目的
