@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  SLWaterflowViewDemo
+//
+//  Created by CHEUNGYuk Hang Raymond on 16/5/18.
+//  Copyright © 2016年 CHEUNGYuk Hang Raymond. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIView+SLExtension.h"
+
+#define SLColorWithRGB(r, g, b) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:1.0]
+
+#define SLRandomColor SLColorWithRGB(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+
+#endif /* PrefixHeader_pch */

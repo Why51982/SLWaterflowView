@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732F427F1CEC4321006E3BE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F427E1CEC4321006E3BE9 /* main.m */; };
+		732F42821CEC4321006E3BE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F42811CEC4321006E3BE9 /* AppDelegate.m */; };
+		732F42851CEC4321006E3BE9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F42841CEC4321006E3BE9 /* ViewController.m */; };
+		732F42881CEC4321006E3BE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732F42861CEC4321006E3BE9 /* Main.storyboard */; };
+		732F428A1CEC4321006E3BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732F42891CEC4321006E3BE9 /* Assets.xcassets */; };
+		732F428D1CEC4321006E3BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732F428B1CEC4321006E3BE9 /* LaunchScreen.storyboard */; };
+		732F42981CEC4321006E3BE9 /* SLWaterflowViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F42971CEC4321006E3BE9 /* SLWaterflowViewDemoTests.m */; };
+		732F42A31CEC4321006E3BE9 /* SLWaterflowViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F42A21CEC4321006E3BE9 /* SLWaterflowViewDemoUITests.m */; };
+		732F42B51CEC4367006E3BE9 /* SLWaterflowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F42B21CEC4367006E3BE9 /* SLWaterflowView.m */; };
+		732F42B61CEC4367006E3BE9 /* SLWaterflowViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F42B41CEC4367006E3BE9 /* SLWaterflowViewCell.m */; };
+		732F42BA1CEC438D006E3BE9 /* UIView+SLExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 732F42B91CEC438D006E3BE9 /* UIView+SLExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		732F42941CEC4321006E3BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732F42721CEC4321006E3BE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732F42791CEC4321006E3BE9;
+			remoteInfo = SLWaterflowViewDemo;
+		};
+		732F429F1CEC4321006E3BE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 732F42721CEC4321006E3BE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 732F42791CEC4321006E3BE9;
+			remoteInfo = SLWaterflowViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		732F427A1CEC4321006E3BE9 /* SLWaterflowViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLWaterflowViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		732F427E1CEC4321006E3BE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		732F42801CEC4321006E3BE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		732F42811CEC4321006E3BE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		732F42831CEC4321006E3BE9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		732F42841CEC4321006E3BE9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		732F42871CEC4321006E3BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		732F42891CEC4321006E3BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		732F428C1CEC4321006E3BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		732F428E1CEC4321006E3BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732F42931CEC4321006E3BE9 /* SLWaterflowViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLWaterflowViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732F42971CEC4321006E3BE9 /* SLWaterflowViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLWaterflowViewDemoTests.m; sourceTree = "<group>"; };
+		732F42991CEC4321006E3BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732F429E1CEC4321006E3BE9 /* SLWaterflowViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLWaterflowViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		732F42A21CEC4321006E3BE9 /* SLWaterflowViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLWaterflowViewDemoUITests.m; sourceTree = "<group>"; };
+		732F42A41CEC4321006E3BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732F42B11CEC4367006E3BE9 /* SLWaterflowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLWaterflowView.h; sourceTree = "<group>"; };
+		732F42B21CEC4367006E3BE9 /* SLWaterflowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLWaterflowView.m; sourceTree = "<group>"; };
+		732F42B31CEC4367006E3BE9 /* SLWaterflowViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLWaterflowViewCell.h; sourceTree = "<group>"; };
+		732F42B41CEC4367006E3BE9 /* SLWaterflowViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLWaterflowViewCell.m; sourceTree = "<group>"; };
+		732F42B81CEC438D006E3BE9 /* UIView+SLExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SLExtension.h"; sourceTree = "<group>"; };
+		732F42B91CEC438D006E3BE9 /* UIView+SLExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SLExtension.m"; sourceTree = "<group>"; };
+		732F42BB1CEC43E4006E3BE9 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732F42771CEC4321006E3BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F42901CEC4321006E3BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F429B1CEC4321006E3BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732F42711CEC4321006E3BE9 = {
+			isa = PBXGroup;
+			children = (
+				732F427C1CEC4321006E3BE9 /* SLWaterflowViewDemo */,
+				732F42961CEC4321006E3BE9 /* SLWaterflowViewDemoTests */,
+				732F42A11CEC4321006E3BE9 /* SLWaterflowViewDemoUITests */,
+				732F427B1CEC4321006E3BE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		732F427B1CEC4321006E3BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732F427A1CEC4321006E3BE9 /* SLWaterflowViewDemo.app */,
+				732F42931CEC4321006E3BE9 /* SLWaterflowViewDemoTests.xctest */,
+				732F429E1CEC4321006E3BE9 /* SLWaterflowViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732F427C1CEC4321006E3BE9 /* SLWaterflowViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				732F42B71CEC438D006E3BE9 /* Category */,
+				732F42B01CEC4367006E3BE9 /* SLWaterflowView */,
+				732F42801CEC4321006E3BE9 /* AppDelegate.h */,
+				732F42811CEC4321006E3BE9 /* AppDelegate.m */,
+				732F42831CEC4321006E3BE9 /* ViewController.h */,
+				732F42841CEC4321006E3BE9 /* ViewController.m */,
+				732F427D1CEC4321006E3BE9 /* Supporting Files */,
+			);
+			path = SLWaterflowViewDemo;
+			sourceTree = "<group>";
+		};
+		732F427D1CEC4321006E3BE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				732F42861CEC4321006E3BE9 /* Main.storyboard */,
+				732F42891CEC4321006E3BE9 /* Assets.xcassets */,
+				732F428B1CEC4321006E3BE9 /* LaunchScreen.storyboard */,
+				732F428E1CEC4321006E3BE9 /* Info.plist */,
+				732F427E1CEC4321006E3BE9 /* main.m */,
+				732F42BB1CEC43E4006E3BE9 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		732F42961CEC4321006E3BE9 /* SLWaterflowViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				732F42971CEC4321006E3BE9 /* SLWaterflowViewDemoTests.m */,
+				732F42991CEC4321006E3BE9 /* Info.plist */,
+			);
+			path = SLWaterflowViewDemoTests;
+			sourceTree = "<group>";
+		};
+		732F42A11CEC4321006E3BE9 /* SLWaterflowViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				732F42A21CEC4321006E3BE9 /* SLWaterflowViewDemoUITests.m */,
+				732F42A41CEC4321006E3BE9 /* Info.plist */,
+			);
+			path = SLWaterflowViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		732F42B01CEC4367006E3BE9 /* SLWaterflowView */ = {
+			isa = PBXGroup;
+			children = (
+				732F42B11CEC4367006E3BE9 /* SLWaterflowView.h */,
+				732F42B21CEC4367006E3BE9 /* SLWaterflowView.m */,
+				732F42B31CEC4367006E3BE9 /* SLWaterflowViewCell.h */,
+				732F42B41CEC4367006E3BE9 /* SLWaterflowViewCell.m */,
+			);
+			name = SLWaterflowView;
+			path = ../../SLWaterflowView;
+			sourceTree = "<group>";
+		};
+		732F42B71CEC438D006E3BE9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				732F42B81CEC438D006E3BE9 /* UIView+SLExtension.h */,
+				732F42B91CEC438D006E3BE9 /* UIView+SLExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732F42791CEC4321006E3BE9 /* SLWaterflowViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732F42A71CEC4321006E3BE9 /* Build configuration list for PBXNativeTarget "SLWaterflowViewDemo" */;
+			buildPhases = (
+				732F42761CEC4321006E3BE9 /* Sources */,
+				732F42771CEC4321006E3BE9 /* Frameworks */,
+				732F42781CEC4321006E3BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLWaterflowViewDemo;
+			productName = SLWaterflowViewDemo;
+			productReference = 732F427A1CEC4321006E3BE9 /* SLWaterflowViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		732F42921CEC4321006E3BE9 /* SLWaterflowViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732F42AA1CEC4321006E3BE9 /* Build configuration list for PBXNativeTarget "SLWaterflowViewDemoTests" */;
+			buildPhases = (
+				732F428F1CEC4321006E3BE9 /* Sources */,
+				732F42901CEC4321006E3BE9 /* Frameworks */,
+				732F42911CEC4321006E3BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732F42951CEC4321006E3BE9 /* PBXTargetDependency */,
+			);
+			name = SLWaterflowViewDemoTests;
+			productName = SLWaterflowViewDemoTests;
+			productReference = 732F42931CEC4321006E3BE9 /* SLWaterflowViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		732F429D1CEC4321006E3BE9 /* SLWaterflowViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732F42AD1CEC4321006E3BE9 /* Build configuration list for PBXNativeTarget "SLWaterflowViewDemoUITests" */;
+			buildPhases = (
+				732F429A1CEC4321006E3BE9 /* Sources */,
+				732F429B1CEC4321006E3BE9 /* Frameworks */,
+				732F429C1CEC4321006E3BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				732F42A01CEC4321006E3BE9 /* PBXTargetDependency */,
+			);
+			name = SLWaterflowViewDemoUITests;
+			productName = SLWaterflowViewDemoUITests;
+			productReference = 732F429E1CEC4321006E3BE9 /* SLWaterflowViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732F42721CEC4321006E3BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "CHEUNGYuk Hang Raymond";
+				TargetAttributes = {
+					732F42791CEC4321006E3BE9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T9UZA33LRD;
+					};
+					732F42921CEC4321006E3BE9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T9UZA33LRD;
+						TestTargetID = 732F42791CEC4321006E3BE9;
+					};
+					732F429D1CEC4321006E3BE9 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T9UZA33LRD;
+						TestTargetID = 732F42791CEC4321006E3BE9;
+					};
+				};
+			};
+			buildConfigurationList = 732F42751CEC4321006E3BE9 /* Build configuration list for PBXProject "SLWaterflowViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 732F42711CEC4321006E3BE9;
+			productRefGroup = 732F427B1CEC4321006E3BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732F42791CEC4321006E3BE9 /* SLWaterflowViewDemo */,
+				732F42921CEC4321006E3BE9 /* SLWaterflowViewDemoTests */,
+				732F429D1CEC4321006E3BE9 /* SLWaterflowViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732F42781CEC4321006E3BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F428D1CEC4321006E3BE9 /* LaunchScreen.storyboard in Resources */,
+				732F428A1CEC4321006E3BE9 /* Assets.xcassets in Resources */,
+				732F42881CEC4321006E3BE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F42911CEC4321006E3BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F429C1CEC4321006E3BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732F42761CEC4321006E3BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F42851CEC4321006E3BE9 /* ViewController.m in Sources */,
+				732F42B61CEC4367006E3BE9 /* SLWaterflowViewCell.m in Sources */,
+				732F42B51CEC4367006E3BE9 /* SLWaterflowView.m in Sources */,
+				732F42BA1CEC438D006E3BE9 /* UIView+SLExtension.m in Sources */,
+				732F42821CEC4321006E3BE9 /* AppDelegate.m in Sources */,
+				732F427F1CEC4321006E3BE9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F428F1CEC4321006E3BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F42981CEC4321006E3BE9 /* SLWaterflowViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		732F429A1CEC4321006E3BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732F42A31CEC4321006E3BE9 /* SLWaterflowViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		732F42951CEC4321006E3BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732F42791CEC4321006E3BE9 /* SLWaterflowViewDemo */;
+			targetProxy = 732F42941CEC4321006E3BE9 /* PBXContainerItemProxy */;
+		};
+		732F42A01CEC4321006E3BE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 732F42791CEC4321006E3BE9 /* SLWaterflowViewDemo */;
+			targetProxy = 732F429F1CEC4321006E3BE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		732F42861CEC4321006E3BE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732F42871CEC4321006E3BE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		732F428B1CEC4321006E3BE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732F428C1CEC4321006E3BE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732F42A51CEC4321006E3BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		732F42A61CEC4321006E3BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		732F42A81CEC4321006E3BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SLWaterflowViewDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = SLWaterflowViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.001bank.SLWaterflowViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		732F42A91CEC4321006E3BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SLWaterflowViewDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = SLWaterflowViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.001bank.SLWaterflowViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		732F42AB1CEC4321006E3BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLWaterflowViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.001bank.SLWaterflowViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLWaterflowViewDemo.app/SLWaterflowViewDemo";
+			};
+			name = Debug;
+		};
+		732F42AC1CEC4321006E3BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SLWaterflowViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.001bank.SLWaterflowViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLWaterflowViewDemo.app/SLWaterflowViewDemo";
+			};
+			name = Release;
+		};
+		732F42AE1CEC4321006E3BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLWaterflowViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.001bank.SLWaterflowViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLWaterflowViewDemo;
+			};
+			name = Debug;
+		};
+		732F42AF1CEC4321006E3BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SLWaterflowViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.001bank.SLWaterflowViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SLWaterflowViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732F42751CEC4321006E3BE9 /* Build configuration list for PBXProject "SLWaterflowViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732F42A51CEC4321006E3BE9 /* Debug */,
+				732F42A61CEC4321006E3BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732F42A71CEC4321006E3BE9 /* Build configuration list for PBXNativeTarget "SLWaterflowViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732F42A81CEC4321006E3BE9 /* Debug */,
+				732F42A91CEC4321006E3BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		732F42AA1CEC4321006E3BE9 /* Build configuration list for PBXNativeTarget "SLWaterflowViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732F42AB1CEC4321006E3BE9 /* Debug */,
+				732F42AC1CEC4321006E3BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		732F42AD1CEC4321006E3BE9 /* Build configuration list for PBXNativeTarget "SLWaterflowViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732F42AE1CEC4321006E3BE9 /* Debug */,
+				732F42AF1CEC4321006E3BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732F42721CEC4321006E3BE9 /* Project object */;
+}
